@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,700&family=Ephesis&family=Poppins&display=swap');
+*{
+    font-family: 'DM Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#111315;
+
+}
+.img__do__header{
+    width: 1500px;
+    height: 400px;
+
+}
+.Imagen__do__topo{
+    position: absolute;
+}
+main{
+    padding: 80px;
+}
+.Conteudo__do__coffee{
+    background-color: #1B1D1F;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: relative;
+    margin-top: -270px;
+}
+.Conteudo__do__coffee h1{
+    color: #FEF7EE;
+    display: flex;
+    font-size: 64px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.Conteudo__do__coffee p {
+    display: flex;
+    justify-content: center;
+    margin-left: 325px;
+    color: #6F757C;
+    font-size: 21px;
+    width: 575px;
+}
+.Botoes{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+.Botao__um{
+    background-color: #6F757C;
+    color: #FEF7EE;
+    font-size: 18px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 9px;
+    margin: 10px;
+}
+.Botao__dois{
+    background-color: #1B1D1F;
+    color: #FEF7EE;
+    font-size: 16px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 9px;
+    margin: 5px;
+}
+.Produtos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Coffee{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 2px white;
+}
+.Precos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 300px;
+}
+.Precos h3{
+    color: #FEF7EE;
+    font-size: 16px;
+    padding: 7px;
+}
+.Valor1{
+    font-size: 12px;
+    color: #111315;
+    background-color: #BEE3CC;
+    height: 25px;
+    width: 49px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-left: 145px;
+}
+.Valor2{
+font-size: 12px;
+color: #111315;
+background-color: #BEE3CC;
+height: 25px;
+width: 49px;
+padding: 6px;
+border-radius: 4px;
+margin-left: 130px;
+}
+.Valor3{
+    font-size: 12px;
+    color: #111315;
+    background-color: #BEE3CC;
+    height: 25px;
+    width: 49px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-left: 160px;
+}
+.Valor4{
+    font-size: 12px;
+    color: #111315;
+    background-color: #BEE3CC;
+    height: 25px;
+    width: 49px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-left: 137px;
+}
+.Valor5{
+    font-size: 12px;
+    color: #111315;
+    background-color: #BEE3CC;
+    height: 25px;
+    width: 49px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-left: 100px;
+}
+.Valor6{
+    font-size: 12px;
+    color: #111315;
+    background-color: #BEE3CC;
+    height: 25px;
+    width: 49px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-left: 100px;
+}
+.Precos img{
+    padding: 7px;
+    margin-bottom: 100px;
+}
+.Avaliacao{
+    color: #FEF7EE;
+    font-size: 16px;
+    padding: 11px;
+    margin-right: 100px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+}
+.Avaliacao strong{
+    color: #6F757C;
+    font-size: 13px;
+}
+.Sold{
+    color: #ED735D;
+    font-size: 15px;
+    margin-top: 11px;
+}
